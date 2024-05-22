@@ -1,6 +1,6 @@
 {
   "name": "camelcaseify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to convert labels to camel case format",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
