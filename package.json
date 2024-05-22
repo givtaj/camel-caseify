@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A library to convert labels to camel case format",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
