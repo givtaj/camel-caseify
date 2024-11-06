@@ -26,11 +26,7 @@ export function camelCaseify(str: string): string {
     return "";
   }
 
-  const camelCasedWords = words.map((word, index) => {
-    return index < 1
-      ? word.toLowerCase()
-      : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-  });
-
-  return camelCasedWords.join("");
+  return words.reduce((camelCased, word, index) => {
+    return camelCased + (index < 1 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase());
+  }, "");
 }
