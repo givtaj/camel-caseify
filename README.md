@@ -3,6 +3,7 @@
 A library to convert labels to camel case format.
 
 ## Installation
+[https://www.npmjs.com/package/camelcaseify](npm camelcaseify page)
 
 ### Using npm
 
